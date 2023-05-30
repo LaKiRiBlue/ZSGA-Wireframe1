@@ -20,7 +20,7 @@
 .clean,
 .robust,
 .powerful {
-  border: solid 3px grey;
   margin: 10px;
   display: block;
+  border-radius: 10px;
 }
