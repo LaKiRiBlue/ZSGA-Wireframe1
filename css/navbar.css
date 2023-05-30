@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+}
+.navbar a {
+  color: red;
+}
+
+.menu {
+  display: none;
+}
+
+.download {
+  flex-basis: fit-content;
+  padding: 16px;
+}
