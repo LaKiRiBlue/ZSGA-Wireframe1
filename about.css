@@ -1,0 +1,26 @@
+.features {
+  text-align: center;
+}
+
+.features h2 {
+  margin-top: 50px;
+}
+.features p {
+  margin-bottom: 75px;
+}
+.fblock {
+  display: block;
+}
+
+.fblock img {
+  height: 100px;
+  width: auto;
+}
+
+.clean,
+.robust,
+.powerful {
+  border: solid 3px grey;
+  margin: 10px;
+  display: block;
+}
