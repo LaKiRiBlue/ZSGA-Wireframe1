@@ -1,0 +1,13 @@
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc {
+    display: flex;
+}
+
+.textbloc {
+    display: flex;
+    flex-direction: column;
+}
