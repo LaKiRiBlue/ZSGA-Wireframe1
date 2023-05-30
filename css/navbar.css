@@ -3,6 +3,10 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.right {
+  display: flex;
+  gap: 16px;
+}
 ul {
   list-style: none;
   display: flex;
@@ -10,7 +14,7 @@ ul {
   font-size: 20px;
 }
 .navbar a {
-  color: red;
+  color: black;
 }
 
 .menu {
@@ -20,4 +24,9 @@ ul {
 .download {
   flex-basis: fit-content;
   padding: 16px;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(207, 9, 97, 1) 100%
+  );
 }
