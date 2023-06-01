@@ -36,6 +36,9 @@
     color: black;
     text-decoration: none;
   }
+  a:visited {
+    color: black;
+  }
 }
 
 @media only screen and (min-width: 300px) {
@@ -73,6 +76,9 @@
   a:link {
     color: black;
     text-decoration: none;
+  }
+  a:visited {
+    color: black;
   }
   .fline {
     background: linear-gradient(#fd7b76, #fd7b75);
