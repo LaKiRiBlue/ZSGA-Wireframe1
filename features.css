@@ -10,29 +10,26 @@
   .features p {
     margin-bottom: 75px;
   }
-  .fblock {
+  .features-details {
     display: block;
   }
 
-  .fblock img {
+  .features-details img {
     height: 100px;
     width: auto;
     padding: 2px 10px 2px 10px;
   }
 
-  .clean,
-  .robust,
-  .powerful {
+  .feature {
     margin: 50px;
-    padding: 0px 30px 80px 30px;
-    height: 250px;
+    padding: 0px 30px 50px 30px;
     width: 300px;
-    display: flexbox;
+    display: flex;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(246, 243, 243);
     text-align: center;
   }
-  .fblock p {
+  .features-details p {
     color: gray;
   }
   a:link {
@@ -50,32 +47,27 @@
   .features h2 {
     margin-top: 50px;
   }
-  .features p {
-    margin-bottom: 75px;
-  }
-  .fblock {
+
+  .features-details {
     display: block;
   }
 
-  .fblock img {
+  .features-details img {
     height: 100px;
     width: auto;
     padding: 2px 10px 2px 10px;
   }
 
-  .clean,
-  .robust,
-  .powerful {
+  .feature {
     margin: 50px;
-    padding: 0px 30px 80px 30px;
-    height: 250px;
+    padding: 0px 30px 50px 30px;
     width: 300px;
     display: inline-block;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(246, 243, 243);
     text-align: center;
   }
-  .fblock p {
+  .features-details p {
     color: gray;
   }
   a:link {
@@ -84,5 +76,8 @@
   }
   .fline {
     background: linear-gradient(#fd7b76, #fd7b75);
+    width: 75px;
+    height: 3px;
+    text-align: center;
   }
 }
