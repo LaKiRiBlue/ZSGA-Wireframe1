@@ -4,14 +4,17 @@
     font-family: "Roboto", "sans-serif";
   }
 
-  .features h2 {
-    margin-top: 50px;
-  }
   .features p {
     margin-bottom: 75px;
+    text-align: center;
   }
   .features-details {
     display: block;
+  }
+  .title {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
   }
 
   .features-details img {
@@ -23,7 +26,7 @@
   .feature {
     margin: 50px;
     padding: 0px 30px 50px 30px;
-    width: 300px;
+    width: 150px;
     display: flex;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(246, 243, 243);
@@ -45,10 +48,6 @@
   .features {
     text-align: center;
     font-family: "Roboto", "sans-serif";
-  }
-
-  .features h2 {
-    margin-top: 50px;
   }
 
   .features-details {
@@ -82,8 +81,16 @@
   }
   .fline {
     background: linear-gradient(#fd7b76, #fd7b75);
-    width: 75px;
-    height: 3px;
+    width: 150px;
+    height: 4px;
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
+  }
+  .title {
+    font-size: 25px;
+    margin-top: 40px;
   }
 }
