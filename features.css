@@ -1,4 +1,4 @@
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
   .features {
     text-align: center;
     font-family: "Roboto", "sans-serif";
@@ -17,6 +17,9 @@
     margin: 20px;
     margin-left: 83px;
     text-align: center;
+  }
+  .fline {
+    margin-left: 150px;
   }
 
   .features-details img {
