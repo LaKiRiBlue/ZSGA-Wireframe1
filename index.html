@@ -1,48 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesZD.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wireframe1</title>
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <section class="home" id="home">
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="stylesZD.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="style-about.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
     <header>
-        <img src="assets/img/logo.svg" logo>
-        <div class="menu">
-		    <i class="fa-solid fa-bars"></i>
-		</div>
+      <div class="nav-left">
+        <img src="assets/img/logo.svg" logo />
+      </div>
+      <div class="nav-right" id="nav-menu">
+        <ul class="navbar">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#why">Why</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li>
+            <a href="#blog">Blog</a>
+          </li>
+        </ul>
+
+        <button class="btn-download">Download Now</button>
+      </div>
+      <div class="hamburger" id="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </header>
-        <div class="beginning">
-            <h1>Basic - Saas Landing Page</h1>
-            <h1><span>Kickstart Your SaaS or App Site </span></h1>
-            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit,
-            <br> sed diam nonumy eirmod tempor.</h2>
+    <section class="home" id="home">
+      <div class="beginning">
+        <h1>Basic - Saas Landing Page</h1>
+        <h1><span>Kickstart Your SaaS or App Site </span></h1>
+        <h2>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit, <br />
+          sed diam nonumy eirmod tempor.
+        </h2>
+      </div>
+
+      <button class="btn-start" type="button">Get Started</button>
+
+      <div class="starter">
+        <h1>Basic - Saas Landing Page</h1>
+        <h1><span>Kickstart Your SaaS or App Site </span></h1>
+        <h2>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit,<br />
+          sed diam nonumy eirmod tempor.
+        </h2>
+        <br />
+        <button class="btn-start" type="button">Get Started</button>
+      </div>
+      <div class="pic1">
+        <img src="assets/img/header-hero.png" />
+        <img src="assets/header-hero.png" />
+      </div>
+      <div class="brands">
+        <img src="assets/img/brand-1.png" />
+        <img src="assets/img/brand-2.png" />
+        <img src="assets/img/brand-3.png" />
+        <img src="assets/img/brand-4.png" />
+        <img src="assets/img/brand-5.png" />
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Clean and simple design,</h2>
+      <p>Comes with everything you need to get started!</p>
+
+      <div class="fblock">
+        <div class="clean">
+          <img src="/assets/clean.png" alt="clean" />
+          <h3>Clean</h3>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex enim
+            maxime sed quod laudantium sequi totam illum aperiam! Ad delectus
+            esse saepe voluptatem beatae aut quas est quae dicta accusamus!
+            <br />
+            <a href="#"> Learn more > </a>
+          </p>
         </div>
-    
-       
-        <br>
-        <button type="button">Get Started</button>
-    
-    <div class="pic1">
-        <img src="assets/img/header-hero.png" pic1>
-    </div>
-    <section class="brands">
-        <img src="assets/img/brand-1.png" alt="1" >
-        <img src="assets/img/brand-2.png" alt="2">
-        <img src="assets/img/brand-3.png" alt="3">
-        <img src="assets/img/brand-4.png" alt="4">
-        <img src="assets/img/brand-5.png" alt="5">
+
+        <div class="robust">
+          <img src="/assets/robust.png" alt="robust" />
+
+          <h3>Robust</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repudiandae facilis cum fugiat molestias quos, at sit magni sunt id
+            recusandae adipisci minus, architecto ducimus voluptate labore quo
+            eius, aspernatur ea.<br />
+            <a href="#"> Learn more > </a>
+          </p>
+        </div>
+
+        <div class="powerful">
+          <img src="/assets/powerful.png" alt="powerful" />
+
+          <h3>Powerful</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+            assumenda aliquam illum provident dolor dolorem? Incidunt,
+            consectetur magni reprehenderit illum odit adipisci nostrum alias
+            iste quo corrupti, omnis culpa placeat! <br />
+            <a href="#"> Learn more > </a>
+          </p>
+        </div>
+      </div>
     </section>
+     <section id="about" class="about">
+        <div class="section">
+            <div class="first" class="textbloc">
+                <div class="line"></div>
+                <h3><span class="bold">Quick & Easy</span> to Use Bootstrap Template</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam velit, consectetur voluptatum excepturi magni hic sint! Quis quia velit quas obcaecati repellat cupiditate ea est quasi laboriosam tempore asperiores quae beatae tempora voluptatem neque non aperiam ut, earum sapiente numquam eveniet recusandae aliquid, esse ipsam! Non voluptatum obcaecati sed aliquam.</p>
+                <button class="tryItFree">Try it free</button>
+            </div>
+            <div class="images">
+                <img src="assets/img/about1.svg">
+                <img src="assets/img/about-shape-1.svg" class="underright">
+            </div>
+        </div>
+        <div class="section">
+            <div class="images">
+                <img src="assets/img/about-shape-2.svg" class="underleft">
+                <img src="assets/img/about2.svg">
+            </div>
+            <div class="second" class="textbloc">
+                <div class="line"></div>
+                <h3><span class="bold">Modern Design</span> with Essential Features</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam velit, consectetur voluptatum excepturi magni hic sint! Quis quia velit quas obcaecati repellat cupiditate ea est quasi laboriosam tempore asperiores quae beatae tempora voluptatem neque non aperiam ut, earum sapiente numquam eveniet recusandae aliquid, esse ipsam! Non voluptatum obcaecati sed aliquam.</p>
+                <button class="tryItFree">Try it free</button>
+            </div>
+        </div>
+        <div class="section">
+            <div class="third" class="textbloc">
+                <div class="line"></div>
+                <h3>Crafted for <span class="bold">SaaS, App and Software Landing Page></span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam velit, consectetur voluptatum excepturi magni hic sint! Quis quia velit quas obcaecati repellat cupiditate ea est quasi laboriosam tempore asperiores quae beatae tempora voluptatem neque non aperiam ut, earum sapiente numquam eveniet recusandae aliquid, esse ipsam! Non voluptatum obcaecati sed aliquam.</p>
+                <button class="tryItFree">Try it free</button>
+            </div>
+            <div class="images">
+                <img src="assets/img/about3 (1).svg">
+                <img src="assets/img/about-shape-1.svg" class="underright">
+            </div>
+        </div>
+        <div class="section">
+            <div class="images">
+                <img src="assets/img/dots.svg" alt="shadow dots" class="shadowdots">
+                <img src="assets/img/video.png" alt="somebody writting on his laptop">
+            </div>
+            <div class="fourth" class="textbloc">
+                <div class="line"></div>
+                <h3><span class="bold">Cool facts</span> about this app</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam velit, consectetur voluptatum excepturi magni hic sint! Quis quia velit quas obcaecati repellat cupiditate ea est quasi laboriosam tempore asperiores quae beatae tempora voluptatem neque non aperiam ut, earum sapiente numquam eveniet recusandae aliquid, esse ipsam! Non voluptatum obcaecati sed aliquam.</p>
+                <img src="assets/img/3buttons.png" alt="statistics">
+            </div>
+        </div>
     </section>
-    
-    
-</body>
+    <section class="team" id="team">
+      <hr />
+      <div class="container-team">
+        <h1>Meet Our <span> Creative Team Members </span></h1>
+        <div class="cards">
+          <div class="card-team">
+            <img src="assets/img/team-1.png" alt="CEO's picture" />
+            <div class="social-media">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="description">
+              <p class="name">Isbela Moreira</p>
+              <p class="role">Founder and CEO</p>
+            </div>
+          </div>
+          <div class="card-team">
+            <img src="assets/img/team-2.png" alt="CEO's picture" />
+            <div class="social-media">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="description">
+              <p class="name">Elon Musk</p>
+              <p class="role">Sr. Software Engineer</p>
+            </div>
+          </div>
+          <div class="card-team">
+            <img src="assets/img/team-3.png" alt="CEO's picture" />
+            <div class="social-media">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="description">
+              <p class="name">Fiona Smith</p>
+              <p class="role">Business Development Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

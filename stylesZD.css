@@ -1,12 +1,11 @@
-
-@media screen and (max-width: 300px){
-    .home {
-        width: 100%;
-        box-sizing: border-box;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
+@media screen and (max-width: 300px) {
+  .home {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
         
-    }
+  }
 }
 
 .home {
@@ -28,22 +27,21 @@ header img {
 
 }
 img {
-    width: 270px;
+  width: 270px;
 }
 span {
-   
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .home h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 .beginning h1 {
-    font-weight: 400;
-    font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
 }
 .beginning h2 {
-    font-size: 10px;
+  font-size: 10px;
 }
 .beginning {
     text-align: center;
@@ -64,26 +62,4 @@ button {
     width: 122px;
     
 
-}
-.menu {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    
-}
-.pic1 {
-    display: flex;
-    justify-content: center;
-}
-.brands img {
-   width: 40%;
-   margin: 5px;
-   
-}
-.brands {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 45px 10px 10px 10px;
-    
 }
