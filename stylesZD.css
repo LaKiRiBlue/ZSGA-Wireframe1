@@ -4,19 +4,27 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     margin: 0;
+        
   }
 }
 
 .home {
-  background-image: url(assets/img/banner-bg.png);
-  background-repeat: no-repeat;
-  background-size: 900px;
-
-  color: white;
+    background-image:url(assets/img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    color: white; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 header img {
-  width: 80px;
-  padding: 15px;
+    width: 80px;
+    padding: 15px;
+    position: relative;
+    top: 12px;
+    left: -90px;
+
 }
 img {
   width: 270px;
@@ -36,26 +44,22 @@ span {
   font-size: 10px;
 }
 .beginning {
-  text-align: center;
+    text-align: center;
+    padding-top: 20px;
 }
-.btn-start {
-  background: rgb(3, 172, 150);
-  background: linear-gradient(
-    266deg,
-    rgba(3, 172, 150, 1) 0%,
-    rgba(5, 207, 208, 1) 79%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  border-radius: 12px;
-  color: white;
-  padding: 15px 26px;
-  text-align: center;
-  text-decoration: none;
-  margin: 4px 80px;
-  cursor: pointer;
-  border-style: none;
-  margin-bottom: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+button {
+    background: rgb(3,172,150);
+    background: linear-gradient(266deg, rgba(3,172,150,1) 0%, rgba(5,207,208,1) 79%, rgba(0,212,255,1) 100%);
+    border-radius: 12px;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 80px;
+    cursor: pointer;
+    border-style: none;
+    margin-bottom: 25px;
+    width: 122px;
+    
+
 }
