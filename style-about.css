@@ -1,4 +1,5 @@
 .about {
+    font-family: 'Roboto';
     box-sizing: border-box;
     width: 100vw;
     display: flex;
@@ -6,7 +7,20 @@
     align-items: center;
 }
 
-.section {
+@media only screen and (max-width:300px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .underleft, .underright {
+        display:none;
+    }
+}
+
+
+.section {  
     box-sizing: border-box;
     display: flex;
     align-items: flex-start;
@@ -51,4 +65,5 @@
     border-radius: 10px;
     padding:5px;
     color:white;
+    width: fit-content;
 }
