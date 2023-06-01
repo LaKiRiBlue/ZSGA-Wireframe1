@@ -1,3 +1,5 @@
+/* _______________NAVBAR _______________*/
+
 header {
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -8,12 +10,13 @@ header {
 }
 
 .nav-right {
-  position: fixed;
+  display: none;
+  /*  position: fixed;
   width: 51%;
   top: 50px;
   left: 8px;
   background-color: rgba(250, 250, 250, 0.898);
-  padding: 16px;
+  padding: 16px; */
 }
 
 .navbar {
@@ -55,6 +58,63 @@ header {
   );
 }
 
+/* _______________TEAM _______________*/
+
+.team {
+  background-color: #f6f2f2;
+  padding: 20px;
+}
+
+.container-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container-team h1 {
+  width: 70%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+hr {
+  content: "";
+  width: 20%;
+  border: 3px solid red;
+  display: block;
+  position: absolute;
+  left: 50%;
+}
+
+.card-team {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.name {
+  font-weight: bold;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 99px;
+  display: flex;
+  gap: 15px;
+  padding: 15px 45px;
+  border-radius: 20px;
+  background-color: #efe2e295;
+}
+
+.social-media i {
+  font-size: 20px;
+  color: #fff;
+}
+
 @media (width > 400px) {
   .nav-right {
     display: flex;
@@ -79,5 +139,11 @@ header {
   .navbar {
     display: flex;
     gap: 16px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 }
