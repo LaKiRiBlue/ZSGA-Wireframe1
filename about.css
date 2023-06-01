@@ -1,6 +1,7 @@
 @media only screen and (max-width: 300px) {
   .features {
     text-align: center;
+    font-family: "Roboto", "sans-serif";
   }
 
   .features h2 {
@@ -31,11 +32,19 @@
     box-shadow: 10px 5px 5px rgb(246, 243, 243);
     text-align: center;
   }
+  .fblock p {
+    color: gray;
+  }
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
 }
 
 @media only screen and (min-width: 300px) {
   .features {
     text-align: center;
+    font-family: "Roboto", "sans-serif";
   }
 
   .features h2 {
@@ -65,5 +74,15 @@
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(246, 243, 243);
     text-align: center;
+  }
+  .fblock p {
+    color: gray;
+  }
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  .fline {
+    background: linear-gradient(#fd7b76, #fd7b75);
   }
 }
