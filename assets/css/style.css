@@ -11,12 +11,15 @@ header {
 
 .nav-right {
   display: none;
-  /*  position: fixed;
+}
+.show-menu {
+  display: inline-block;
+  position: fixed;
   width: 51%;
   top: 50px;
   left: 8px;
   background-color: rgba(250, 250, 250, 0.898);
-  padding: 16px; */
+  padding: 16px;
 }
 
 .navbar {
