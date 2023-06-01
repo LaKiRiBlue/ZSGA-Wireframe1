@@ -1,0 +1,54 @@
+.about {
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    width: 100vw;
+    padding:30px;
+}
+
+
+.textbloc {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display:flex;
+    align-items: flex-start;
+    width: calc(100%/2);
+}
+
+.images .underright {
+    margin-left: -500px;
+    object-fit: contain;
+}
+
+.images .underleft {
+    margin-right: -500px;
+}
+
+.images .shadowdots {
+    margin-right: -200px;
+}
+
+.line {
+    background: linear-gradient(#fd7b76, #fd7b75);
+    width: 75px;
+    height:4px;
+}
+
+.tryItFree {
+    background: linear-gradient(#fd8364, #fd6f97);
+    border:none;
+    border-radius: 10px;
+    padding:5px;
+    color:white;
+}
