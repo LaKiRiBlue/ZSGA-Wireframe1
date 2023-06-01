@@ -5,6 +5,7 @@
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
         margin: 0;
+        
     }
 }
 
@@ -12,13 +13,18 @@
     background-image:url(assets/img/banner-bg.png);
     background-repeat: no-repeat;
     background-size: 900px;
-   
-
     color: white; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 header img {
     width: 80px;
     padding: 15px;
+    position: relative;
+    top: 12px;
+    left: -90px;
 
 }
 img {
@@ -41,6 +47,7 @@ span {
 }
 .beginning {
     text-align: center;
+    padding-top: 20px;
 }
 button {
     background: rgb(3,172,150);
@@ -54,13 +61,29 @@ button {
     cursor: pointer;
     border-style: none;
     margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 122px;
+    
+
 }
 .menu {
     position: fixed;
     top: 20px;
     right: 20px;
+    
+}
+.pic1 {
+    display: flex;
+    justify-content: center;
+}
+.brands img {
+   width: 40%;
+   margin: 5px;
+   
+}
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 45px 10px 10px 10px;
     
 }
